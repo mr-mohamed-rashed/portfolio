@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="perant"> 
+        
+        
+            <nav class="navbar">
+    <div class="name">
+        <h1>Mohamed Rashed</h1>
+    </div>
+
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skl">My-Skills</a></li>
+        <li><a href="#proj1">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</nav>
+
+            <div class="child"> 
+                <div class="child1">
+                    <div class="dimt" >
+
+                        <div class="boxx">
+                <a href="https://www.facebook.com/mohamed.abyrashed" target="_blank" aria-label="Facebook" class="icon1">
+                <i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-mohamed-rashed-469b6621a/" target="_blank" aria-label="LinkedIn" class="icon1" >
+                <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/Moorashed1" target="_blank" aria-label="twitter" class="icon1" >
+                <i class="fa-brands fa-square-twitter"></i></a>
+                
+                        </div>
+
+
+                    <a href="./src/cva_e.pdf" download class="cv-btn">Download CV</a>
+                    </div> 
+                </div>
+                <div class="child1">
+                    <div class="dimg" ></div>
+                    </div>
+                </div>
+                <hr>
+                
+                <div id="about"></div>
+            <div class="aboutme"  >
+                <div class="names">
+                    <div></div>
+                     <h2>About me</h2></div>
+                <div class="about" ><p>Web designer and developer, with user interface design skills using HTML and CSS, also developed in java scribt.</p></div>
+            </div>
+            
+            <hr>
+
+            <div class="skills"  id="skl" >
+             <div class="names"> <h2>My Skills</h2></div>
+              <div class="allbar"> 
+                <p>Html</p> 
+                <div class="bar"><div class="bar95 bar100">95%</div></div>
+                Css
+                <div class="bar"><div class="bar80 bar100">80%</div></div>
+                Javaa acript
+                <div class="bar" ><div class="bar70 bar100">70%</div></div>
+                Bootstrap
+                <div class="bar"><div class="bar78 bar100">78%</div></div>  
+             </div>
+            </div>
+            
+            <hr>
+            
+
+            <div class="names" id="proj1" > <h2>My Projects</h2></div>
+            <div class="projects">
+                <div class="boxbroject">
+                    <div class="project pro1"> 
+                    <div class="proj"><a href="./src/aganc online.png" download class="cv-btn" target="_blank">View Project</a></div></div>
+                </div>
+                <div class="boxbroject">
+                    <div class="project pro2"> 
+                    <div class="proj"><a href="./src/project2.png" download class="cv-btn" target="_blank">View Project</a></div></div>
+                </div>
+                <div class="boxbroject">
+                    <div class="project pro3"> 
+                    <div class="proj"><a href="./src/xo game.png" download class="cv-btn" target="_blank">View Project</a></div></div>
+                </div>
+                <div class="boxbroject">
+                    <div class="project pro4"> 
+                    <div class="proj"><a href="./src/New 1.jpg" download class="cv-btn" target="_blank">View Project</a></div></div>
+                </div>
+                
+            
+            </div> 
+        
+            <div class="footer" id="contact">
+              <div class="box"> 
+                <div class="contactname"><h1 >Contact Me</h1></div>  
+             <div class="boxicons">
+                <a href="https://www.facebook.com/mohamed.abyrashed" target="_blank" aria-label="Facebook" class="social-face icon">
+                <i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-mohamed-rashed-469b6621a/" target="_blank" aria-label="LinkedIn" class="social-face icon">
+                <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/Moorashed1" target="_blank" aria-label="twitter" class="social-face icon">
+                <i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://wa.me/201005144500" target="_blank" aria-label="whatsapp" class="whatsapp icon">
+                <i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href="https://github.com/mr-mohamed-rashed" target="_blank" aria-label="github-link" class="hup icon">
+                <i class="fa-brands fa-github"></i> </a>
+            </div>
+            </div>
+                <div class="contact">
+                    <form
+                        action="mailto:rishobeh@gmail.com"
+                        method="post"
+                        enctype="text/plain">
+                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <input type="email" name="From" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>  <hr>   
+            <div class="copyright"><p>© 2025 Mohamed Rashed. Built with ❤️ using HTML & CSS.</p></div>
+            </div>
+        
+        <a class="up" href="#top"><i class="fa-solid fa-angles-up"></i></a></div>
+    </div>
+
+  <script>
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
+</script>
+
+
+</body>
+</html>
+
