@@ -526,6 +526,7 @@
 
     /* ========== HERO ========== */
     .child {
+        width: 80%;
         flex-direction: column;
         height: auto;
         padding: 100px 0 50px;
@@ -533,8 +534,8 @@
     }
 
     .dimg.dimt {
-        width: 80%;
-        height: 240px;
+        width: 320px;
+        height: 320px;
     }
     
 
@@ -581,8 +582,8 @@
     }
 
     .project {
-        width: 420px;
-        height: 420px;
+        width: 320px;
+        height: 320px;
     }
 
     /* ========== FOOTER ========== */
