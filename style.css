@@ -67,7 +67,7 @@
     display: flex ;
     flex-wrap: wrap;
     border-radius: 70px 70px 70px 70px;
-    background-image: url(./src/صورتى.png);
+    background-image: url(https://i.ibb.co/TBMyFcc1/image.png);
     background-size: cover;
     box-shadow: 3px 3px 10px 5px var(--background);
     transition: all 3s;
@@ -82,7 +82,7 @@
     justify-content: center;
     align-items: end;
     padding-bottom: 25px;
-    background-image: url(./src/eng.png);
+    background-image: url(https://i.ibb.co/MDJ9YmBj/eng.png);
     border-radius: 70px 70px 70px 70px;
     transition: all 1s;
     background-size: cover;
@@ -95,7 +95,7 @@
     color: #0831ad;
 }
 .dimt:hover{
-    background-image: url(./src/arb.png);
+    background-image: url(https://i.ibb.co/Hpf6469V/arb.png);
 }
 .cv-btn {
     width: 50%;
@@ -230,16 +230,16 @@
     transition: all 3s;
 }
 .pro1{
-    background-image: url(./src/logo.jpg);
+    background-image: url(https://i.ibb.co/bj5ZkkgL/logo.jpg);
 }
 .pro2{
-    background-image: url(./src/fayrouza.png);
+    background-image: url(https://i.ibb.co/wHxHF15/fayrouza.png);
 }
 .pro3{
-    background-image: url(./src/XOLOGO.png);
+    background-image: url(https://i.ibb.co/gM4ZYCtH/XOLOGO.png);
 }
 .pro4{
-    background-image: url(./src/coffee.png);
+    background-image: url(https://i.ibb.co/yvSbbkP/coffee.png);
 }
 .proj{
     width: 100%;
