@@ -381,7 +381,11 @@
     .nav-links a {
         font-size: 18px;
     }
-
+     .perant{
+    width: 100%;
+    background-color:var(--child-color);
+    gap : 2px 2px ;   
+}
     /* HERO SECTION */
     .child {
         flex-direction: column;
