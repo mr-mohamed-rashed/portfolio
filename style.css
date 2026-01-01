@@ -81,7 +81,7 @@
     justify-content: center;
     align-items: end;
     padding-bottom: 25px;
-    background-image: url(https://i.ibb.co/MDJ9YmBj/eng.png);
+    background-image: url(https://i.ibb.co/CsMPJxmJ/eng.png);
     border-radius: 70px 70px 70px 70px;
     transition: all 1s;
     background-size: cover;
@@ -94,7 +94,7 @@
     color: #0831ad;
 }
 .dimt:hover{
-    background-image: url(https://i.ibb.co/Hpf6469V/arb.png);
+    background-image: url(https://i.ibb.co/tpxqFjx9/arabic.png);
 }
 .cv-btn {
     width: 50%;
@@ -489,12 +489,12 @@
     /* ========== NAVBAR ========== */
     .perant{
     width: 100%;
-
+    background-color:var(--child-color);
     gap : 2px 2px ;   
 }
     .navbar {
         height: 100px;
-        padding: 0 20px;
+        padding: 0 12px;
     }
 
     .name {
