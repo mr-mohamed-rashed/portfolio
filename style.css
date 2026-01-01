@@ -526,7 +526,7 @@
 
     /* ========== HERO ========== */
     .child {
-        width: 80%;
+        width: 100%;
         flex-direction: column;
         height: auto;
         padding: 100px 0 50px;
@@ -534,8 +534,8 @@
     }
 
     .dimg.dimt {
-        width: 320px;
-        height: 320px;
+        width: 80%;
+        height: 260px;
     }
     
 
