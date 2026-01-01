@@ -94,7 +94,7 @@
 .icon1{
     font-size: 30px;
     text-decoration: none;
-    margin-right: 5px;
+    margin-left: 27px;
     color: #0831ad;
 }
 .cv-btn {
@@ -546,14 +546,18 @@
 
     .dimg{
         width: 80%;
-        height: 300px;
-        margin: 10px auto;
+        height: 220px;
+        margin: auto;
     }
 
     .dimt {
         width: 80%;
         height: 300px;
         margin: 10px auto;
+        
+    }
+    .arb{
+        font-size: 19px;
     }
     
 
@@ -603,9 +607,11 @@
         width: 270px;
         height: 270px;
     }
+    
     .cv-btn {
-        width: 50%;
+        width: 96%;
         font-size: 15px;
+        margin: auto;
     }
 
     /* ========== FOOTER ========== */
