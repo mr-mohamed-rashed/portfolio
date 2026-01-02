@@ -391,7 +391,7 @@
     /* HERO SECTION */
     .child {
         flex-direction: column;
-        height: auto;
+        height: 880px;
         gap: 40px;
         padding: 120px 0 60px;
     }
@@ -525,7 +525,7 @@
     .nav-links.active {
         display: flex;
         align-items: end;
-        padding-right: 10px;
+        padding-left: 10px;
         
     }
 
@@ -539,7 +539,7 @@
 
     /* ========== HERO ========== */
     .child {
-        height: 880px;
+        height: 720px;
         flex-direction: column;
         padding: 100px 0 50px; 
     }
