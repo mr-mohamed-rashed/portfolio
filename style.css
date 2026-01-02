@@ -539,7 +539,7 @@
 
     /* ========== HERO ========== */
     .child {
-        height: 720px;
+        height: 680px;
         flex-direction: column;
         padding: 100px 0 50px; 
     }
